@@ -1,0 +1,56 @@
+.body {
+    height: 100vh;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+/* ! LINKS */
+.links {
+    margin: 10px 10px 0 0;
+    text-align: right;
+}
+.links a {
+    font-size: medium;
+    color: black;
+    margin: 10px;
+}
+
+hr {
+    margin-right: 30px;
+}
+
+h6 {
+    margin: 35px 0 10px 0;
+}
+
+#title {
+    color: rgb(194, 32, 32);
+    margin: 20px 0;
+}
+
+/* ! FORM */
+label {
+    width: 250px;
+}
+.searchbar {
+    width: 500px;
+    border: 0.5px solid rgb(185, 180, 180);
+    border-radius: 1.5px;
+    padding-left: 5px;
+}
+.searchbar:focus {
+    outline: none;
+    border: 0.5px solid rgb(12, 81, 255);
+    box-shadow: inset 1px 2px 9px -7px;
+}
+
+/* ! BTN */
+#button {
+    width: 750px;
+}
+#advance_search {
+    margin-top: 20px;
+    float: right;
+}
